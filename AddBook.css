@@ -1,0 +1,82 @@
+.add-book-container {
+    width: 120%; /* For smaller screens */
+    max-width: 600px; /* Limit maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px; /* Smooth round corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full-screen height */
+    background-color: #f3f4f6; /* Subtle background color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .add-book-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Larger heading for clarity */
+  }
+  
+  .add-book-form {
+    width: 100%;
+  }
+  
+  .add-book-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-book-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-book-form input,
+  .add-book-form textarea {
+    width: 90%;
+    padding: 12px; /* Slightly increased padding */
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners for input fields */
+  }
+  
+  .add-book-form textarea {
+    resize: vertical;
+  }
+  
+  .add-book-form .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px; /* Improved padding for better clickability */
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px; /* Rounded corners for button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-book-form .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #d9534f;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 8px;
+  }
+  
